@@ -24,12 +24,31 @@ button {
 ul {
   list-style-type: none;
 }
+.section {
+  padding: 94px 215px 94px 215px;
+}
+.section li + li {
+  margin-left: 30px;
+}
+.section ul {
+  display: flex;
+  padding-inline-start: 0;
+}
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
 /* Header Section Styles */
 
+.header-studio ul {
+  display: flex;
+}
 .header-studio {
+  display: flex;
   background-color: #ffffff;
 }
 .webstudio-logo {
+  margin-left: 215px;
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -106,14 +125,17 @@ address a:focus {
 /* Hero Section Styles */
 
 .hero-section {
+  background: #2f303a;
+}
+.hero-section h1 {
+  padding: 200px 452px 280px 452px;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.73;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  background: #2f303a;
 }
 .hero-section .button {
   font-weight: 700;
