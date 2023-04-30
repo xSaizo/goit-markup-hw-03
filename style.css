@@ -43,7 +43,7 @@ ul {
 .header-studio .container {
   display: flex;
   background-color: #ffffff;
-  justify-content: space-between;
+
 }
 .header-studio ul {
 display: flex;
@@ -68,10 +68,10 @@ display: flex;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #212121;
-  margin-left: 50px;
 }
 .nav-links {
-  margin-left: -340px;
+  padding-inline-start: 0;
+margin-left: 93px;
 }
 
 .header-adress a {
@@ -82,9 +82,15 @@ display: flex;
   text-decoration: none;
   color: #757575;
 }
+.nav-links li+li {
+  margin-left: 50px;
+}
 .header-adress li + li {
-  margin-right: 215px;
   margin-left: 40px;
+}
+.header-adress{
+  padding-inline-start: 0;
+  margin-left: 385px;
 }
 
 .nav-links a:hover,
