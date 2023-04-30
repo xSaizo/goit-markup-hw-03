@@ -27,12 +27,12 @@ ul {
 .section > div {
   padding: 94px 215px 94px 215px;
 }
-.section li + li {
+.section li+li{
   margin-left: 30px;
 }
 .section ul {
   display: flex;
-  padding-inline-start: 0;
+  padding-inline-start: 0; 
 }
 .container {
   max-width: 1600px;
@@ -200,7 +200,7 @@ address a:focus {
 .what-we-do-section h2 {
   font-size: 36px;
   line-height: 1.86;
-  text-align: center;
+  margin-left: 486px;
 }
 /* Our team Section Styles */
 .our-team-section {
@@ -209,7 +209,7 @@ address a:focus {
 .our-team-section h2 {
   font-size: 36px;
   line-height: 1.86;
-  text-align: center;
+  margin-left: 503px;
 }
 .our-team-section h4 {
   font-weight: 500;
